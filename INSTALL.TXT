@@ -1,0 +1,13 @@
+#TechnoGYM 1.0 super alpha
+
+Only java is required to run this program. 
+
+The program cam be compiled by typing:
+
+javac *.java in the root folder of the project.
+
+The Program can be run by typing:
+
+java TechnoGym
+
+The program will create two treadmills, both with
