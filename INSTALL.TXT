@@ -10,4 +10,15 @@ The Program can be run by typing:
 
 java TechnoGym
 
-The program will create two treadmills, both with
+if google protocol buffers are implemented in a future version, and the classes are not compiled,
+the can be compiled buy using protocl buffers compiler protoc.
+
+Protoc can by run by typing:
+
+protoc --java_out=. techno.proto 
+
+--java.out=. will output the same name as the input file, as a class, in this case techno.class under the package foler TechnoGym.
+
+
+Thank you.
+Greg
