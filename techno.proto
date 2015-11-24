@@ -1,0 +1,13 @@
+package TechnoGym;
+
+option java_outer_classname = "equipmentList";
+
+message Equipment {
+  required string elocation = 1;
+  required int32 eid = 2;
+
+}
+
+message EqipmentList {
+  repeated Equipment equipment = 1;
+}
